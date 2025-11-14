@@ -82,5 +82,4 @@ site:
   template: article-theme
   options:
     favicon: static/favicon.ico 
-    logo: static/logo.png
-    twitter: neurolibre
+    logo: static/logo.svg
