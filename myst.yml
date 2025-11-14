@@ -2,12 +2,12 @@
 version: 1
 project:
   title: 'Demystifying MyST: The most powerful preprint authoring tool'
-  subtitle: A template for reproducible preprints
+  subtitle: An interactive preprint template
   thebe:
     binder:
       url: https://terrarium.evidencepub.io
-      repo: neurolibre/mystical-article # Production will override this.
-      ref: HEAD # Production will override this.
+      repo: evidencepub/interactive-preprint
+      ref: HEAD
   authors:
     - name: Agah Karakuzu
       orcid: 0000-0001-7283-271X
@@ -55,13 +55,18 @@ project:
     - reproducible publishing
     - mystmd
     - next-gen preprints
+  toc: 
+    - file: paper.md
+    - file: content/figure_1.ipynb
+    - file: content/figure_2.ipynb
+    - file: content/figure_2.md
   github: https://github.com/neurolibre/mystical-article
   banner: static/banner.jpg
-  venue: Neurolibre #Production will override this.
-  subject: Living Preprint # Production will override this.
+  venue: Evidence
+  subject: Interactive Preprint
   numbering:
     headings: true
-  doi: 10.55458/neurolibre.xxxxx # Production will override this.
+  doi: 10.55458/evidence.xxxxx # Production will override this.
   open_access: true
   license:
     content: CC-BY-4.0
@@ -74,8 +79,8 @@ project:
     - content/figure1.ipynb
     - content/figure2.md
 site:
-  template: article-theme # Or book-theme
+  template: article-theme
   options:
-    favicon: static/favicon.ico # Production will override this for branding.
-    logo: static/logo.png # Production will override this for branding.
+    favicon: static/favicon.ico 
+    logo: static/logo.png
     twitter: neurolibre
