@@ -68,12 +68,18 @@ Figure reused from [mystmd.org](https://mystmd.org) (CC-BY-4.0, [source](https:/
 :::
 
 
-For example, the following figure is the output of the `content/fig_1.ipynb` notebook:
+For example, the following figures [](#fig1) and [](#figinteract) are the outputs of the `content/fig_1.ipynb` notebook:
 
 :::{figure} #fig1cell
 :label: fig1
 
 An example of a figure generated from a Jupyter Notebook that lives in the `content` folder of this repository. Check `content/figure_1.ipynb` to see how this figure was generated and where the label `#fig1cell` is defined.
+:::
+
+:::{figure} #figslider
+:label: figinteract
+
+You can interact with the figure right away!
 :::
 
 Here is another figure generated from another notebook:
